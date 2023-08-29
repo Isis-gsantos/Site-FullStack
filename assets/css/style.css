@@ -4,15 +4,30 @@
 /*Components*/
 @import './header.css';
 @import './buttons.css';
+@import './main.css';
 
 /*Reset CSS*/
 * {
   margin: 0;
   padding: 0;
   border: 0;
-  font-size: 0;
+  font-size: 100%;
   font-family: 'Source Sans 3', sans-serif;
-  font: inherit;
+  font-weight: 300;
   vertical-align: baseline;
   text-decoration: none;
+}
+
+.container {
+  width: 1024px;
+  margin: 30px auto;
+  /*faz com que centralize a header dentro da página, vai ter 0 na parte superior e inferior, enquanto os lados é automático (fazendo com que centralize)*/
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  /*todos os items dentro do elemento pai vão ser colocados paralelos um ao outro, depois deve colocar a direção*/
+  flex-direction: row;
 }

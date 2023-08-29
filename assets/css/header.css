@@ -1,10 +1,4 @@
-header {
-  width: 1024px;
-  margin: 30px auto;
-  /*faz com que centralize a header dentro da página, vai ter 0 na parte superior e inferior, enquanto os lados é automático (fazendo com que centralize)*/
-  display: flex;
-  /*todos os items dentro do elemento pai vão ser colocados paralelos um ao outro, depois deve colocar a direção*/
-  flex-direction: row;
+header section {
   justify-content: space-between;
   align-items: center;
 }
