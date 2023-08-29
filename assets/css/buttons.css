@@ -1,0 +1,10 @@
+.btn {
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+
+/*para o btn btn-laranja funcionar primeiro ele tem que ter a classe btn antes, se for apenas btn-laranja ele não vai funcionar*/
+.btn.btn-laranja {
+  background: #ff6633;
+  color: #fff;
+}

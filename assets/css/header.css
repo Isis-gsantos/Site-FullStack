@@ -1,6 +1,6 @@
 header {
   width: 1024px;
-  margin: 0 auto;
+  margin: 30px auto;
   /*faz com que centralize a header dentro da página, vai ter 0 na parte superior e inferior, enquanto os lados é automático (fazendo com que centralize)*/
   display: flex;
   /*todos os items dentro do elemento pai vão ser colocados paralelos um ao outro, depois deve colocar a direção*/
@@ -12,10 +12,13 @@ header {
 header nav ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   list-style: none;
   /*retira as bolinhas da listagem*/
 }
 
-header nav ul li {
-  padding: 15px;
+header nav ul li a {
+  margin: 0 15px;
+  /*0 na altura (superior e inferior) e lateral de 15px*/
+  color: #3399cc;
 }
