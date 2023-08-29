@@ -1,0 +1,21 @@
+header {
+  width: 1024px;
+  margin: 0 auto;
+  /*faz com que centralize a header dentro da página, vai ter 0 na parte superior e inferior, enquanto os lados é automático (fazendo com que centralize)*/
+  display: flex;
+  /*todos os items dentro do elemento pai vão ser colocados paralelos um ao outro, depois deve colocar a direção*/
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  /*retira as bolinhas da listagem*/
+}
+
+header nav ul li {
+  padding: 15px;
+}
