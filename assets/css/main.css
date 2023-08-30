@@ -21,6 +21,7 @@
 .sobre-web-design article p {
   color: #3399cc;
   /*ou seja, as 2 compartilham da mesma cor. A vírgula é igual a "e"*/
+  margin: 10px 0 40px;
 }
 
 .sobre-web-design article h2 {

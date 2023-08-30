@@ -1,0 +1,45 @@
+@media (max-width: 2000px) {
+
+  /*o tamanho mínimo é de uma tela de 1900px, quando fala que é o máximo vai pegar a funcionalidade do background size 880px-> logo, tudo o que for menor que 1900 ele incorpora 880px*/
+  body {
+    background-size: 880px;
+  }
+}
+
+@media (max-width:1700px) {
+  body {
+    background-size: 800px;
+  }
+}
+
+@media (max-width:1550px) {
+  body {
+    background-size: 750px;
+  }
+}
+
+@media (max-width:1440px) {
+  body {
+    background-size: 700px;
+  }
+}
+
+@media (max-width:1330px) {
+  body {
+    background-size: 650px;
+  }
+}
+
+@media (max-width:1220px) {
+  body {
+    background-size: 600px;
+  }
+}
+
+@media (max-width:1110px) {
+  body {
+    background-position-x: -100px;
+  }
+}
+
+/*essas mecânicas servem para deixar o site responsivo e funcionar da mesma forma em diferentes tamanhos de monitores*/
