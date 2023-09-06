@@ -1,0 +1,116 @@
+@media (max-width: 1150px) {
+  .container {
+    width: 950px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container {
+    width: 850px;
+  }
+
+  .sobre-web-design {
+    figcaption {
+      img {
+        width: 600px;
+      }
+    }
+  }
+}
+
+
+@media (max-width: 915px) {
+
+  /*agora a tela é to tamanho de um celular, ou seja, tem que fazer com que o site seja funcional e agradável aos olhos*/
+  body {
+    background-position: left top;
+    background-color: $color-quartenaria;
+  }
+
+  .container {
+    width: 600px;
+  }
+
+  .row {
+    flex-direction: column;
+  }
+
+  header {
+    nav {
+      margin: 30px 0;
+    }
+
+    //end nav
+  }
+
+  //end header
+
+  .sobre-web-design {
+    article {
+      width: 100%;
+    }
+
+    //end article
+
+    figcaption {
+      img {
+        width: 100%;
+        margin: 30px 0 0 0;
+      }
+
+      //end img
+    }
+
+    //end figcaption
+  }
+
+  //end sobre-web-design
+
+  footer {
+    .row {
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    //end row
+  }
+
+  //end footer
+}
+
+@media (max-width: 665px) {
+  .container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 450px) {
+  .container {
+    width: 290px;
+  }
+
+  header {
+    nav {
+      background: $color-branco;
+      width: 100%;
+      padding: 10px 0 20px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+
+      ul {
+        flex-direction: column;
+
+        li {
+          margin: 10px 0;
+        }
+
+        //end li
+      }
+
+      //end ul
+    }
+
+    //end nav
+  }
+
+  //end header
+}
