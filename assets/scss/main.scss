@@ -1,0 +1,58 @@
+.sobre-web-design {
+  /*essa classe já está herdando as informações da classe row, então não precisa repetir*/
+  align-items: center;
+  /* display: flex;
+  flex-direction: row; */
+  justify-content: space-between;
+
+  article {
+    width: 250px;
+
+    h1 {
+      font-size: $font-h1;
+      line-height: 90%;
+      font-weight: 400;
+      color: $color-secundaria;
+    }
+
+    //end h1
+
+    h2,
+    p {
+      color: $color-primaria;
+      /*ou seja, as 2 compartilham da mesma cor. A vírgula é igual a "e"*/
+      margin: 10px 0 40px;
+    }
+
+    //end h2, p
+
+    h2 {
+      font-size: $font-h2;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      line-height: 200%;
+    }
+
+    //end h2
+
+    p {
+      margin-top: 10px 0 40px;
+      /*altura e largura*/
+    }
+
+    //end p
+
+    figcaption {
+      img {
+        width: 700px;
+        /*considerando o arquivo que fala o tamanho da imagem (800) vou ajustar o tamanho manualmente*/
+      }
+
+      //end img
+    }
+
+    //end figcaption
+  }
+
+  //end article
+}
